@@ -258,7 +258,7 @@ media min-width: 768px
         /* navbar responsive start here */
         .navbar.navbar-expand-lg.bg-body-tertiary {
             background:#11004d !important;
-            padding: 25px 0px;
+            padding: 40px 0px;
           }
         .navbar .navbar-toggler{
             background-color: #fff;
