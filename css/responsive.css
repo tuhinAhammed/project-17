@@ -14,7 +14,7 @@ media min-width: 576px
     }
     /* navbar responsive end here */
     .banner {
-        height:400px;
+        height:100%;
         padding: 80px 0px ;
       }
     .banner .left-part h2 {
@@ -266,7 +266,7 @@ media min-width: 768px
         }
         /* navbar responsive end here */
         .banner {
-            height: 100vh;
+            height: 100%;
             padding: 80px 0px ;
           }
         .banner .left-part h2 {
@@ -527,7 +527,7 @@ media min-width: 768px
             }
             /* navbar responsive end here */
             .banner {
-                height: 100vh;
+                height: 100%;
                 padding: 80px 0px ;
               }
             .banner .left-part h2 {
