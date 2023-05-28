@@ -1,0 +1,850 @@
+/* ****************************
+media min-width: 576px
+********************************/
+@media (max-width: 576.98px){
+
+    /* navbar responsive start here */
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        background:#11004d !important;
+        padding: 20px 0px;
+      }
+    .navbar .navbar-toggler{
+        background-color: #fff;
+        border:none !important;
+    }
+    /* navbar responsive end here */
+    .banner {
+        height: 100vh;
+        padding: 80px 0px ;
+      }
+    .banner .left-part h2 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    .banner .left-part .btn-list .btn-primary {
+        font-size: 16px;
+        padding: 12px 30px;
+      }
+    .banner .left-part .btn-list .pricing-btn {
+        font-size: 16px;
+        padding: 12px 30px;
+        margin: 20px 0px 0px -10px;
+      }
+    .banner .right-part {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+      }
+    .banner .right-part img{
+        width: 70%;
+    }
+    .work {
+        padding: 100px 0px;
+      }
+    .work .left-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .work .left-content p{
+        padding:0px 30px;
+        text-align: center;
+    }
+    .work .left-content a {
+        font-size: 16px;
+        line-height: 26px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .work .right-content {
+        margin-top: 40px;
+      }      
+    .work .right-content .work-card {
+        width: 100%;
+        text-align: center;
+
+      }
+    .work .right-content .work-card h2 {
+        font-size: 25px;
+        padding: 0px 0px 0px 0px;
+      }
+      .work .right-content .work-card p {
+        font-size: 15px;
+        line-height: 25px;
+      }
+/* our work css here */
+    .our-work {
+        padding: 80px 0px;
+        background-color: #fff;
+    }
+    .our-work .inner-our-work .left-content .hover-part {
+        width: 100%;
+        padding: 100px 25px 0px 25px;
+    }
+    .our-work .right-content {
+        margin-top: 40px;
+      }
+    .our-work .title-btn .pricing-btn {
+        float: none;
+        text-align: center;
+    }
+/* our work end css here */
+/* features css start here */
+.features {
+    padding: 80px 0px;
+    background-color: #F4F6FC;
+  }
+.features .features-title {
+    padding: 0px 0px 30px;
+  }
+  .features .inner-features .features-box {
+    margin-bottom: 20px;
+  }
+/* features css end here */
+
+/* testimonial css start here */
+.testimonial {
+    padding: 0px 0px;
+  }
+  .testimonial .left-content {
+    padding: 0px 30px;
+  }
+  .testimonial .inner-testimonial .right-part {
+    padding: 30px 10px 0px 10px;
+  }
+  .testimonial .inner-testimonial .right-part {
+    width: 100%;
+  }
+  .testimonial .inner-testimonial .right-part h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .testimonial .inner-testimonial .right-part .testimonial-person {
+    padding-top: 20px;
+  }
+  .testimonial .inner-testimonial .right-part .testimonial-person .person-details {
+    padding: 10px 0px;
+  }
+  .testimonial .inner-testimonial .right-part .swiper-button-prev {
+    margin-left: 74%;
+  }
+/* testimonial css end here */
+
+/* faq css start from here */
+  .faq .inner-faq .right-part {
+    margin-top: 20px;
+}
+.faq .inner-faq .right-part .faq-content .nmbr h2 {
+    font-size: 18px;
+  }
+.faq .inner-faq .right-part .faq-content .text p {
+    font-size: 20px;
+  }
+
+.faq .inner-faq .right-part .faq-content {
+    padding: 5px 0px;
+  }
+
+.faq .inner-faq .left-part h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .faq .inner-faq .right-part .faq-content .text h4 {
+    font-size: 14px;
+  }
+/* faq css end from here */
+
+/* contact css start here */
+.contact {
+    padding: 0px 0px;
+  }
+  .contact .inner-contact .left-part {
+    padding: 60px 20px 60px 40px;
+  }
+  .contact .inner-contact .left-part h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .contact .inner-contact .left-part p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0px;
+  }
+  .contact .inner-contact .right-part {
+    padding: 50px 30px;
+  }
+  .contact .inner-contact .right-part p {
+    font-size: 16px;
+    padding: 16px 0px 0px 0px;
+  }
+  .contact .inner-contact .right-part input {
+    font-size: 14px;
+    padding: 14px 21px;
+  }
+  .contact .inner-contact .right-part .contact-submit-btn {
+    padding: 16px 80px;
+    font-size: 16px;
+  }
+  .contact .inner-contact .right-part .btn.btn-primary.pricing-btn {
+    margin-top: -20px;
+    }
+/* contact css end here */
+
+/* our blog css start */
+.blog {
+    padding: 80px 0px;
+  }
+  .blog .blog-title h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .blog .blog-content h2.card-text {
+    font-size: 20px;
+    padding: 5px 0px;
+  }
+  .blog .blog-content .card {
+    width: 80% !important;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+/* our blog css end */
+
+/* footer css start here */
+.footer {
+  padding: 60px 0px 10px 0px;
+}
+  .footer .left-part p {
+    padding: 22px 0px 0px 0px;
+  }
+  .footer .left-part .inner-contact {
+    margin: 20px 0px;
+  }
+  .footer .right-part {
+    padding: 20px 0px;
+  }
+  .footer .right-part h2 {
+    font-size: 35px;
+  }
+  .footer .right-part p {
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+  }
+  .footer-nav .copy-right h4 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .footer-nav .right-part ul li a{
+    font-size: 14px;
+    }
+    .footer-nav .right-part ul{
+        float: none;
+    }
+    .footer-nav .right-part {
+        text-align: center;
+    }
+    .footer-nav {
+        padding: 15px 0px 15px 0px;
+      }
+/* footer css end here */
+
+}
+
+/* ****************************
+media min-width: 768px
+*********************************/
+@media (min-width:577px) and (max-width: 768.98px) {
+
+        /* navbar responsive start here */
+        .navbar.navbar-expand-lg.bg-body-tertiary {
+            background:#11004d !important;
+            padding: 25px 0px;
+          }
+        .navbar .navbar-toggler{
+            background-color: #fff;
+            border:none !important;
+        }
+        /* navbar responsive end here */
+        .banner {
+            height: 100vh;
+            padding: 80px 0px ;
+          }
+        .banner .left-part h2 {
+            font-size: 40px;
+            line-height: 50px;
+          }
+        .banner .left-part .btn-list .btn-primary {
+            font-size: 16px;
+            padding: 12px 30px;
+          }
+        .banner .left-part .btn-list .pricing-btn {
+            font-size: 16px;
+            padding: 12px 30px;
+            margin: 20px 0px 0px -10px;
+          }
+        .banner .right-part  {
+            text-align: center;
+            margin: 0 auto;
+          }
+        .banner .right-part img{
+            width: 70%;
+        }
+        .work {
+            padding: 100px 0px;
+          }
+        .work .left-content h2 {
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center;
+        }
+        .work .left-content p{
+            padding:0px 30px;
+            text-align: center;
+        }
+        .work .left-content a {
+            font-size: 16px;
+            line-height: 26px;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .work .right-content {
+            margin-top: 40px;
+          }      
+        .work .right-content .work-card {
+            width: 100%;
+            text-align: center;
+    
+          }
+        .work .right-content .work-card h2 {
+            font-size: 25px;
+            padding: 0px 0px 0px 0px;
+          }
+          .work .right-content .work-card p {
+            font-size: 15px;
+            line-height: 25px;
+          }
+    /* our work css here */
+        .our-work {
+            padding: 80px 0px;
+            background-color: #fff;
+        }
+        .our-work .inner-our-work .left-content .hover-part {
+            width: 100%;
+            padding: 100px 25px 0px 25px;
+        }
+        .our-work .right-content {
+            margin-top: 40px;
+          }
+        .our-work .title-btn .pricing-btn{
+            float: none;
+            text-align: center;
+        }
+        
+    /* our work end css here */
+    /* features css start here */
+    .features {
+        padding: 80px 0px;
+        background-color: #F4F6FC;
+      }
+    .features .features-title {
+        padding: 0px 0px 30px;
+      }
+      .features .inner-features .features-box {
+        margin-bottom: 20px;
+      }
+    /* features css end here */
+    
+    /* testimonial css start here */
+    .testimonial {
+        padding: 0px 0px 40px 0px;
+      }
+      .testimonial .left-content {
+        padding: 0px 30px;
+      }
+      .testimonial .inner-testimonial .right-part {
+        padding: 30px 10px 0px 10px;
+      }
+      .testimonial .inner-testimonial .right-part {
+        width: 100%;
+      }
+      .testimonial .inner-testimonial .right-part h2 {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .testimonial .inner-testimonial .right-part .testimonial-person {
+        padding-top: 20px;
+      }
+      .testimonial .inner-testimonial .right-part .testimonial-person .person-details {
+        padding: 10px 0px;
+      }
+      .testimonial .inner-testimonial .right-part .swiper-button-prev {
+        margin-left: 74%;
+      }
+
+    /* testimonial css end here */
+    
+    /* faq css start from here */
+    .faq {
+        padding: 80px 0px;
+      }
+
+    .faq .inner-faq .right-part {
+        margin-top: 20px;
+    }
+    .faq .inner-faq .right-part .faq-content .nmbr h2 {
+        font-size: 18px;
+      }
+    .faq .inner-faq .right-part .faq-content .text p {
+        font-size: 20px;
+      }
+    
+    .faq .inner-faq .right-part .faq-content {
+        padding: 5px 0px;
+      }
+    
+    .faq .inner-faq .left-part h2 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .faq .inner-faq .right-part .faq-content .text h4 {
+        font-size: 14px;
+      }
+
+    /* faq css end from here */
+    
+    /* contact css start here */
+    .contact {
+        padding: 0px 0px;
+      }
+      .contact .inner-contact .left-part::after{
+        width: 100%;
+      }
+      .contact .inner-contact .left-part {
+        padding: 60px 20px 60px 40px;
+      }
+      .contact .inner-contact .left-part h2 {
+        font-size: 35px;
+        line-height: 45px;
+      }
+      .contact .inner-contact .left-part p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0px;
+      }
+      .contact .inner-contact .right-part {
+        padding: 50px 30px;
+      }
+      .contact .inner-contact .right-part p {
+        font-size: 16px;
+        padding: 16px 0px 0px 0px;
+      }
+      .contact .inner-contact .right-part input {
+        font-size: 14px;
+        padding: 14px 21px;
+      }
+      .contact .inner-contact .right-part .contact-submit-btn {
+        padding: 16px 80px;
+        font-size: 16px;
+      }
+      .contact .inner-contact .right-part .btn.btn-primary.pricing-btn {
+        margin-top: -20px;
+        }
+    /* contact css end here */
+    
+    /* our blog css start */
+    .blog {
+        padding: 80px 0px;
+      }
+      .blog .blog-title h2 {
+        font-size: 35px;
+        text-align: center;
+      }
+      .blog .blog-content h2.card-text {
+        font-size: 20px;
+        padding: 5px 0px;
+      }
+      .blog .blog-content .card {
+        width: 100% !important;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+    /* our blog css end */
+    
+    /* footer css start here */
+    .footer {
+      padding: 60px 0px 10px 0px;
+    }
+      .footer .left-part p {
+        padding: 22px 0px 0px 0px;
+      }
+      .footer .left-part .inner-contact {
+        margin: 20px 0px;
+      }
+      .footer .right-part {
+        padding: 20px 0px;
+      }
+      .footer .right-part h2 {
+        font-size: 35px;
+      }
+      .footer .right-part p {
+        padding: 10px 0px 10px 0px;
+        font-size: 16px;
+      }
+      .footer-nav .copy-right h4 {
+        font-size: 12px;
+        text-align: center;
+      }
+      .footer-nav .right-part ul li a{
+        font-size: 14px;
+        }
+        .footer-nav .right-part ul{
+            float: none;
+        }
+        .footer-nav .right-part {
+            text-align: center;
+        }
+        .footer-nav {
+            padding: 15px 0px 15px 0px;
+          }
+    /* footer css end here */
+    
+    }
+
+/* **********************
+@media (min-width: 992px)
+**************************/
+@media (min-width:769px) and (max-width: 992px) {
+    
+            /* navbar responsive start here */
+            .navbar.navbar-expand-lg.bg-body-tertiary {
+                background:#11004d !important;
+                padding: 25px 0px;
+              }
+            .navbar .navbar-toggler{
+                background-color: #fff;
+                border:none !important;
+            }
+            /* navbar responsive end here */
+            .banner {
+                height: 100vh;
+                padding: 80px 0px ;
+              }
+            .banner .left-part h2 {
+                font-size: 40px;
+                line-height: 50px;
+              }
+            .banner .left-part .btn-list .btn-primary {
+                font-size: 16px;
+                padding: 12px 30px;
+              }
+            .banner .left-part .btn-list .pricing-btn {
+                font-size: 16px;
+                padding: 12px 30px;
+                margin: 20px 0px 0px -10px;
+              }
+            .banner .right-part  {
+                text-align: center;
+                margin: 0 auto;
+              }
+            .banner .right-part img{
+                width: 70%;
+            }
+            .work {
+                padding: 100px 0px;
+              }
+            .work .left-content h2 {
+                font-size: 40px;
+                line-height: 50px;
+                text-align: center;
+            }
+            .work .left-content p{
+                padding:0px 30px;
+                text-align: center;
+            }
+            .work .left-content a {
+                font-size: 16px;
+                line-height: 26px;
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+            }
+            .work .right-content {
+                margin-top: 40px;
+              }      
+            .work .right-content .work-card {
+                width: 100%;
+                text-align: center;
+        
+              }
+            .work .right-content .work-card h2 {
+                font-size: 25px;
+                padding: 0px 0px 0px 0px;
+              }
+              .work .right-content .work-card p {
+                font-size: 15px;
+                line-height: 25px;
+              }
+        /* our work css here */
+            .our-work {
+                padding: 80px 0px;
+                background-color: #fff;
+            }
+            .our-work .inner-our-work .left-content .hover-part {
+                width: 100%;
+                padding: 100px 25px 0px 25px;
+            }
+            .our-work .right-content {
+                margin-top: 40px;
+              }
+            .our-work .title-btn .pricing-btn{
+                float: none;
+                text-align: center;
+            }
+        /* our work end css here */
+        /* features css start here */
+        .features {
+            padding: 80px 0px;
+            background-color: #F4F6FC;
+          }
+        .features .features-title {
+            padding: 0px 0px 30px;
+          }
+          .features .inner-features .features-box {
+            margin-bottom: 20px;
+          }
+        /* features css end here */
+        
+        /* testimonial css start here */
+        .testimonial {
+            padding: 0px 0px 40px 0px;
+          }
+          .testimonial .left-content {
+            padding: 0px 30px;
+          }
+          .testimonial .inner-testimonial .right-part {
+            padding: 30px 10px 0px 10px;
+          }
+          .testimonial .inner-testimonial .right-part {
+            width: 100%;
+          }
+          .testimonial .inner-testimonial .right-part h2 {
+            font-size: 22px;
+            font-weight: 500;
+          }
+          .testimonial .inner-testimonial .right-part .testimonial-person {
+            padding-top: 20px;
+          }
+          .testimonial .inner-testimonial .right-part .testimonial-person .person-details {
+            padding: 10px 0px;
+          }
+          .testimonial .inner-testimonial .right-part .swiper-button-prev {
+            margin-left: 74%;
+          }
+    
+        /* testimonial css end here */
+        
+        /* faq css start from here */
+        .faq {
+            padding: 80px 0px;
+          }
+    
+        .faq .inner-faq .right-part {
+            margin-top: 20px;
+        }
+        .faq .inner-faq .right-part .faq-content .nmbr h2 {
+            font-size: 18px;
+          }
+        .faq .inner-faq .right-part .faq-content .text p {
+            font-size: 20px;
+          }
+        
+        .faq .inner-faq .right-part .faq-content {
+            padding: 5px 0px;
+          }
+        
+        .faq .inner-faq .left-part h2 {
+            font-size: 30px;
+            font-weight: 600;
+          }
+          .faq .inner-faq .right-part .faq-content .text h4 {
+            font-size: 14px;
+          }
+    
+        /* faq css end from here */
+        
+        /* contact css start here */
+        .contact {
+            padding: 0px 0px;
+          }
+          .contact .inner-contact .left-part::after{
+            width: 100%;
+          }
+          .contact .inner-contact .left-part {
+            padding: 60px 20px 60px 40px;
+          }
+          .contact .inner-contact .left-part h2 {
+            font-size: 35px;
+            line-height: 45px;
+          }
+          .contact .inner-contact .left-part p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 0px;
+          }
+          .contact .inner-contact .right-part {
+            padding: 50px 30px;
+          }
+          .contact .inner-contact .right-part p {
+            font-size: 16px;
+            padding: 16px 0px 0px 0px;
+          }
+          .contact .inner-contact .right-part input {
+            font-size: 14px;
+            padding: 14px 21px;
+          }
+          .contact .inner-contact .right-part .contact-submit-btn {
+            padding: 16px 80px;
+            font-size: 16px;
+          }
+          .contact .inner-contact .right-part .btn.btn-primary.pricing-btn {
+            margin-top: -20px;
+            }
+        /* contact css end here */
+        
+        /* our blog css start */
+        .blog {
+            padding: 80px 0px;
+          }
+          .blog .blog-title h2 {
+            font-size: 35px;
+            text-align: center;
+          }
+          .blog .blog-content h2.card-text {
+            font-size: 20px;
+            padding: 5px 0px;
+          }
+          .blog .blog-content .card {
+            width: 100% !important;
+            margin: 0 auto;
+            margin-top: 20px;
+          }
+        /* our blog css end */
+        
+        /* footer css start here */
+        .footer {
+          padding: 60px 0px 10px 0px;
+        }
+          .footer .left-part p {
+            padding: 22px 0px 0px 0px;
+          }
+          .footer .left-part .inner-contact {
+            margin: 20px 0px;
+          }
+          .footer .right-part {
+            padding: 20px 0px;
+          }
+          .footer .right-part h2 {
+            font-size: 35px;
+          }
+          .footer .right-part p {
+            padding: 10px 0px 10px 0px;
+            font-size: 16px;
+          }
+          .footer-nav .copy-right h4 {
+            font-size: 12px;
+            text-align: center;
+          }
+          .footer-nav .right-part ul li a{
+            font-size: 14px;
+            }
+            .footer-nav .right-part ul{
+                float: none;
+            }
+            .footer-nav .right-part {
+                text-align: center;
+            }
+            .footer-nav {
+                padding: 15px 0px 15px 0px;
+              }
+        /* footer css end here */
+}
+/* **********************
+@media for width: 992px)
+/* ************************** */
+
+@media (min-width: 992.10px) and (max-width: 1200px) { 
+    /* banner responsive css*/
+
+    .banner .left-part .btn-list .btn-primary {
+      font-size: 16px;
+      padding: 16px 30px;
+    }
+    .banner .right-part img{
+        width: 100%;
+    }
+    /* banner responsive css end*/
+    /* testimonial css start here */
+    .testimonial .inner-testimonial .right-part .swiper-button-prev {
+        margin-left: 80%;
+      }
+    /* testimonial css end here */
+    /* our-features css start here */
+    .features .features-title {
+        padding: 0px 78px;
+        text-align: center;
+      }
+    /* our-features css end here */
+    /* our work css start here */
+    .our-work .inner-our-work .left-content .hover-part {
+        padding: 100px 25px 0px 25px;
+    }
+    .our-work .inner-our-work .right-content .right-content-hover {
+        padding: 80px 25px 50px 25px;
+    }
+    /* our work css end here */
+
+    /* contact responsive start here */
+    .contact .inner-contact .right-part .contact-submit-btn {
+        padding: 16px 50px;
+    }
+    /* contact responsive end here */
+
+    /* footer responsive start here */
+    .footer-nav .copy-right h4 {
+        font-size: 14px;
+      }
+      .footer .left-part .inner-contact {
+        width: 100%;
+      }
+    /* footer responsive end here */
+ }
+
+/* **********************
+@media for width:1400px)
+/* ************************** */
+
+@media (min-width: 1200.10px) and (max-width: 1400px){
+    .features .features-title {
+        padding: 0px 80px 50px;
+        text-align: center;
+    }
+    
+    .contact .inner-contact .right-part .contact-submit-btn {
+        width: 100%;
+        padding: 16px 50px;
+    }
+
+    .testimonial .inner-testimonial .right-part .swiper-button-prev {
+        margin-left: 80%;
+    }
+    .footer .left-part .inner-contact {
+        padding: 20px 20px;
+        background-color: #FCD980;
+        width: 80%;
+        margin-top: 86px;
+    }
+    .contact {
+        padding: 0px 0px 100px 0px;
+    }
+}

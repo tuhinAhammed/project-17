@@ -1,0 +1,690 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul , ol{
+    list-style: none;
+}
+p{
+    display: inline-block;
+}
+body{
+    font-family: 'poppins';
+}
+/* navbar section css here */
+
+.navbar{
+    background-color: #1C1E53 !important;
+    padding: 32px 0px;
+}
+.navbar .nav-item{
+
+}
+.navbar .nav-item .nav-link{
+    margin-right: 32px;
+    color: #BBBBCB;
+    font-size: 16px;
+}
+.navbar .nav-item .nav-link:active , .navbar .nav-item .nav-link:hover{
+    color: #fff;
+}
+.navbar .btn-contact{
+    padding: 16px 48px;
+    border: 2px solid #BBBBCB;
+    font-size: 16px;
+    color:#BBBBCB;
+    background-color:transparent;
+    border-radius:50px;
+}
+.navbar .btn-contact:hover{
+    background-color: #fff;
+    color: black;
+}
+/* navbar section css end here */
+
+/* banner section css start here */
+
+.banner{
+    height: 100vh;
+    padding:150px 0px;
+    background-color: #1C1E53;
+}
+.banner .left-part h2{
+    font-size: 54px;
+    line-height: 75px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner .left-part p{
+    font-size: 16px;
+    color: #fff;
+    padding: 24px 0px 40px 0px;
+}
+.banner .left-part .btn-list .btn-primary{
+    font-size: 18px;
+    color: #000;
+    padding: 16px 54px;
+    background-color: #FCD980;
+    border-radius: 50px;
+    border: 2px solid #FCD980;
+}
+.banner .left-part .btn-list .btn-primary:hover{
+    background-color: transparent;
+    color: #FCD980;
+}
+.banner .left-part .btn-list .pricing-btn{
+    background:transparent;
+    border:none;
+    color: #fff;
+}
+.banner .left-part .btn-list .fa-arrow-right-long{
+    margin-left:15px;
+}
+.banner .right-part img{
+    width: 100%;
+}
+/* banner section css end here */
+
+/* work section css start here */
+.work{
+    padding: 128px 0px;
+    background-color: #F4F6FC;
+}
+.work .left-content{
+    
+}
+.work .left-content h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+}
+.work .left-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #282938;
+    padding: 16px 0px;
+    margin: 0px;
+}
+.work .left-content a{
+    font-size: 18px;
+    line-height: 28px;
+    color: #2405F2;
+}
+.work .left-content a svg.svg-inline--fa.fa-arrow-right-long {
+    margin-left: 10px;
+}
+.work .right-content{
+    width: 100%;
+}
+.work .right-content .work-card{
+    width: 100%;
+}
+.work .right-content .work-card .serial-shape p{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2405F2;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index:4;
+    padding-top:10px;
+}
+.work .right-content .work-card .serial-shape p:after{
+    content: '';
+    right: 0%;
+    top: 0%;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    background-color:#5239FA;
+    border-radius: 5px;
+    z-index:-3;
+    
+}
+.work .right-content .work-card .serial-shape p:before {
+    content: '';
+    left: -28%;
+    bottom: -28%;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    background-color: #5239FA;
+    border-radius: 5px;
+    z-index: -3;
+    background-color: #FCD980;
+}
+.work .right-content .work-card h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 0px 8px 0px;
+}
+.work .right-content .work-card p{
+    font-size: 16px;
+    color:#282938;
+    line-height: 26px;
+}
+/* work section css end here */
+
+/* our-work section css start here */
+
+.our-work{
+    padding:128px 0px;
+    background-color: #fff;
+}
+.our-work .title{
+    padding-bottom: 64px;
+}
+.our-work .our-work-title h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.our-work .title-btn .pricing-btn{
+    color: #000;
+    float: right;
+    margin-top: 16px;
+}
+.our-work .title-btn .pricing-btn:hover{
+    background-color:transparent;
+}
+.our-work .left-content img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.our-work .inner-our-work .left-content .hover-part h2{
+    font-size:22px;
+    line-height: 32px;
+    color: #fff;
+}
+.our-work .inner-our-work .left-content .hover-part p{
+    font-size:16px;
+    line-height:26px;
+    padding: 10px 0px 0px 0px;
+    color: #fff;
+}
+.our-work .inner-our-work .left-content .hover-part .pricing-btn{
+    color: #000;
+    padding: 0px;
+    color: #FCD980;
+    background-color: transparent;
+}
+.our-work .inner-our-work .left-content{
+    position: relative;
+}
+.our-work .inner-our-work .left-content .hover-part{
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    opacity: 0;
+    padding: 300px 25px 0px 25px;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: 0.5s;
+}
+.our-work .inner-our-work .left-content:hover .hover-part{
+    opacity: 1;
+}
+.our-work .left-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.our-work .right-content{
+    position: relative;
+}
+.our-work .right-content img{
+    width: 100%;
+}
+.our-work .inner-our-work .right-content-hover h2{
+    font-size:22px;
+    line-height: 32px;
+    color: #fff;
+}
+.our-work .inner-our-work .right-content-hover p{
+    font-size:16px;
+    line-height:26px;
+    padding: 10px 0px 0px 0px;
+    color: #fff;
+}
+.our-work .inner-our-work .right-content-hover .pricing-btn{
+    color: #000;
+    padding: 0px;
+    color: #FCD980;
+    background-color: transparent;
+}
+.our-work .inner-our-work .right-content .right-content-hover {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: 0.5s;
+    padding: 180px 25px 50px 25px;
+    opacity: 0;
+}
+.our-work .inner-our-work .right-content:hover .right-content-hover{
+    opacity: 1;
+}
+.features{
+    padding: 128px 0px;
+    background-color:#F4F6FC;
+
+}
+.features .features-title {
+    padding: 0px 150px 50px;
+    text-align: center;
+}
+.features .features-title p {
+    font-size: 16px; 
+}
+.features .features-title h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+}
+.features .inner-features .features-box{
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow:0px 5px 20px -5px rgba(0, 0, 0, 0.16);
+    margin-top: 25px;
+}
+.features .inner-features .features-box h3{
+    font-size: 24px;
+    color: #000;
+    margin: 15px 0px 15px 0px;
+}
+.features .inner-features .features-box p{
+    font-size: 16px;
+    color: #282938;
+    opacity: 0.7;
+}
+.features .inner-features .features-box .icon{
+    color:#2405F2;
+    font-size: 44px !important;
+}
+/* our-work section css end here */
+/* testimonial css start here */
+
+.testimonial{
+    padding: 128px 0px;
+    background-color: #F4F6FC;
+}
+.testimonial .inner-testimonial .right-part{
+    width: 90%;
+    float:right;
+}
+/* testimonial css end here */
+.testimonial .inner-testimonial{
+    
+}
+.testimonial .inner-testimonial .left-part h2{
+    font-size: 38px;
+    line-height: 48px;
+    color: #000;
+    font-weight: 600;
+}
+.testimonial .inner-testimonial p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 16px;
+}
+.testimonial .inner-testimonial .right-part{
+    padding: 0px 0px 30px 0px;
+    background-color: transparent !important;
+    position: relative;
+
+}
+.testimonial .inner-testimonial .right-part h2{
+    font-size: 32px;
+    font-weight: 500;
+
+}
+.testimonial .inner-testimonial .right-part .testimonial-person{
+    width: 40%;
+    display: block;
+    padding-top: 40px;
+}
+.swiper-slide.swiper-slide-active {
+    display: block;
+}
+.testimonial .inner-testimonial .right-part .testimonial-person .person-details{
+    margin-top: 5px;
+}
+.testimonial .inner-testimonial .right-part .testimonial-person img{
+    width:52px;
+    height:52px;
+    border-radius: 50px;
+}
+.testimonial .inner-testimonial .right-part .testimonial-person .person-details h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+.testimonial .inner-testimonial .right-part .testimonial-person .person-details p{
+    font-size: 12px;
+    font-weight: 500;
+    margin:0px;
+    padding: 0px;
+}
+.testimonial .inner-testimonial .right-part .swiper-button-next {
+    background-color: #5239FA;
+    font-size: 18px;
+    padding: 15px 21px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-size: 24px !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-next:after {
+    content: 'next';
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.testimonial .inner-testimonial .right-part .swiper-button-prev {
+    background-color: #5239FA;
+    font-size: 18px;
+    padding: 15px 21px;
+    margin-top: 51px;
+    border-radius: 50px;
+    font-size: 24px !important;
+    margin-left: 86%;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'prev';
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align:left;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* faq css from here */
+  .faq{
+    padding: 128px 0px;
+  }
+  .faq .inner-faq{
+    
+  }
+  .faq .inner-faq .left-part h2{
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .faq .inner-faq .left-part .pricing-btn{
+    color: #5239FA;
+    background-color: transparent;
+    padding: 16px 0px;
+  }
+  .faq .inner-faq .right-part{
+    
+  }
+  .faq .inner-faq .right-part .faq-content{
+    padding: 15px 0px;
+    border-top: 1px solid #ECECF1;
+  }
+  .faq .inner-faq .right-part .faq-content .nmbr h2{
+    font-size: 25px;
+    margin-top: 4px;
+    font-weight: 500;
+    color: #5239FA;
+  }
+  .faq .inner-faq .right-part .faq-content .text p{
+    font-size: 24px;
+  }
+  .faq .inner-faq .right-part .faq-content .text h4{
+    font-size: 18px;
+    font-weight: 400;
+    display: none;
+    transition: 1s;
+    color: #01010f88;
+  }
+  .faq .inner-faq .right-part .faq-content{
+    transition: 1s;
+  }
+  .faq .inner-faq .right-part .faq-content:hover .text h4{
+    display: inline-block;
+  }
+  /* faq css end here */
+
+/* conatct css start here */
+
+.contact{
+    padding:0px 0px 100px 0px;
+}
+.contact .inner-contact{
+    background: url(../images/woman-writing-on-paper-3228878.png) top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact .inner-contact .left-part{
+    padding:96px 80px 261px 80px;
+    position: relative;
+    z-index:0;
+}
+.contact .inner-contact .left-part:after{
+    content:'';
+    background-color: #5339fa39;
+    width: 104%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    z-index: -1;
+}
+.contact .inner-contact .left-part h2{
+    font-size: 54px;
+    line-height: 64px;
+    color: #fff;
+    font-weight: 600;
+}
+.contact .inner-contact .left-part p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.contact .inner-contact .right-part{
+    padding: 96px 96px;
+    background-color: #1C1E53;
+    width: 100%;
+    height: 100%;
+}
+.contact .inner-contact .right-part h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .inner-contact .right-part p{
+    font-size: 18px;
+    padding: 16px 0px;
+    color: #fff;
+}
+.contact .inner-contact .right-part input{
+    font-size: 16px;
+    color: #f4f6fc5c;
+    border: 1px solid #f4f6fc6b;
+    padding: 20px 20px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: transparent;
+}
+.contact .inner-contact .right-part .contact-submit-btn{
+    width: 100%;
+    padding: 16px 150px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 40px 0px;
+    border: 1px solid #2405F2;
+    background-color: #2405F2;
+}
+.contact .inner-contact .right-part .contact-submit-btn:hover{
+    background-color: transparent;
+}
+.contact .inner-contact .right-part .pricing-btn{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+.contact .inner-contact .right-part .pricing-btn:hover{
+    color: #FCD980;
+}
+/* contact css end here */
+
+/* our blocg css here */
+
+.blog {
+    padding: 80px 0px 128px 0px;
+}
+.blog .blog-title h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.blog .blog-content{
+    padding-top: 54px;
+}
+.blog .blog-content .card{
+        width: 100% !important;
+}
+.blog .blog-content h5.card-title {
+    font-size: 12px;
+}
+.blog .blog-content h2.card-text {
+    font-size: 24px;
+    padding: 10px 0px;
+}
+.blog .blog-content .card-body p {
+    font-size: 14px;
+}
+/* our blocg css end here */
+
+/* footer css start here */
+
+.footer{
+    background:#1C1E53 ;
+    padding: 96px 0px 0px 0px;
+}
+.footer .left-part p{
+    padding: 22px 150px 0px 0px;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+.footer .right-part h2{
+    font-size: 48px;
+    color: #fff;
+}
+.footer .right-part p{
+    padding: 22px 0px 10px 0px;
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+}
+.footer .right-part ul {
+    padding: 0px;
+}
+.footer .right-part ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.footer .right-part ul li a{
+    font-size: 24px;
+    color: #fff;
+    transition: 0.5s;
+}
+.footer .right-part ul li a:hover{
+    color: #FCD980;
+}
+.footer .left-part .inner-contact{
+    padding: 20px 20px;
+    background-color: #FCD980;
+    width: 70%;
+    margin-top: 86px;
+}
+.footer .left-part .inner-contact h2{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+.footer .left-part .inner-contact p{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    opacity: 0.5;
+}
+/* footer nav css here */
+.footer-nav{
+    padding: 30px 0px 20px 0px;
+    background-color: #fff;
+}
+.footer-nav .copy-right h4{
+    font-size: 16px;
+    color: #282938;
+}
+.footer-nav .right-part ul{
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+.footer-nav .right-part ul li {
+    display: inline-block;
+}
+.footer-nav .right-part ul li a{
+    color: #282938;
+    padding-right:18px;
+
+}
+.footer-nav .right-part ul li a:hover{
+    color: #5239FA;
+}
+.footer-nav .right-part ul li a{
+    font-size: 16px;
+}
+/* foooter css end here */
+
+/* global css here */
+.pricing-btn{
+    background:transparent;
+    border:none;
+    color: #fff;
+}
+/* global css end here */
+
