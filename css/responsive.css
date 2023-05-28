@@ -14,7 +14,7 @@ media min-width: 576px
     }
     /* navbar responsive end here */
     .banner {
-        height: 100vh;
+        height:700px;
         padding: 80px 0px ;
       }
     .banner .left-part h2 {
